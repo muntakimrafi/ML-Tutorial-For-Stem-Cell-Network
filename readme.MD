@@ -14,4 +14,9 @@ Two things covered in the workshop:
 This task involves going through a code that could be used to identify the optimal position in the genome to insert a piece of DNA and selecting the best insulator to ensure the inserted DNA is not influenced by enhancers. For this, we use the Enformer model to predict the impact of the insertion on gene expression. We also show how Vaishnav et al. 2022 transformer model can be used to choose a yeast promoter with desired strength.
 
 ## Task 2: Training a Neural Network on MPRA Data
+
+NN             |  Linear Regressor
+:-------------------------:|:-------------------------:
+![](nn.png)  |  ![](linear regressor.png)
+
 In this task, we train a neural network from scratch on MPRA data. Our aim is to predict gene expression based on the DNA sequence. However, we show that due to GC-content bias in the data, a simple linear regression model can outperform the more complex neural network. This case serves as a reminder of the importance of thorough EDA before training complex models. In genomics, data can contain various sequence-based artifacts that can influence model performance.
