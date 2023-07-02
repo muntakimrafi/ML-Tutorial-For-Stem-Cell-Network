@@ -21,7 +21,7 @@ This task involves going through a code that could be used to identify the optim
      <td> Linear Regressor </td>
   </tr>
   <tr>
-    <td><img src="nn.png" alt="Neural Network" width="400"/></td>
+    <td><img src="nn.png" alt="Neural Network" height="300"/></td>
     <td><img src="linear_regressor.png" alt="Linear Regressor" width="400"/></td>
   </tr>
 </table>
