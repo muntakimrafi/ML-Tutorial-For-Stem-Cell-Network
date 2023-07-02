@@ -15,8 +15,15 @@ This task involves going through a code that could be used to identify the optim
 
 ## Task 2: Training a Neural Network on MPRA Data
 
-NN             |  Linear Regressor
-:-------------------------:|:-------------------------:
-![](nn.png)  |  ![](linear_regressor.png)
+<table>
+  <tr>
+    <td> Neural Network </td>
+     <td> Linear Regressor </td>
+  </tr>
+  <tr>
+    <td><img src="nn.png" alt="Neural Network" width="400"/></td>
+    <td><img src="linear_regressor.png" alt="Linear Regressor" width="400"/></td>
+  </tr>
+</table>
 
 In this task, we train a neural network from scratch on MPRA data. Our aim is to predict gene expression based on the DNA sequence. However, we show that due to GC-content bias in the data, a simple linear regression model can outperform the more complex neural network. This case serves as a reminder of the importance of thorough EDA before training complex models. In genomics, data can contain various sequence-based artifacts that can influence model performance.
