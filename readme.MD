@@ -26,4 +26,4 @@ This task involves going through a code that could be used to identify the optim
   </tr>
 </table>
 
-In this task, we train a neural network from scratch on MPRA data. Our aim is to predict gene expression based on the DNA sequence. However, we show that due to GC-content bias in the data, a simple linear regression model can outperform the more complex neural network. This case serves as a reminder of the importance of thorough EDA before training complex models. In genomics, data can contain various sequence-based artifacts that can influence model performance.
+In this task, we train a neural network from scratch on MPRA data (from an experiment where things went horribly wrong). Our aim is to predict gene expression based on the DNA sequence. However, we show that due to GC-content bias in the data, a simple linear regression model can outperform the more complex neural network. This case serves as a reminder of the importance of thorough EDA before training complex models. In genomics, data can contain various sequence-based artifacts that can influence model performance.
